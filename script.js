@@ -20,7 +20,8 @@ form.addEventListener('submit', (event) => {
     setTimeout(() => {
       if (age >= 18) {
         resolve(`Welcome, ${name}. You can vote.`);
-      } else {
+      } 
+	  else {
         reject(`Oh sorry ${name}. You aren't old enough.`);
       }
     }, 4000);
